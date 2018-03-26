@@ -1,0 +1,9 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = true
+	symlinks = false
+	ignorecase = true
+[remote "api.puduck.net"]
+	url = ssh://git@puduck.iptime.org:20022/git/api.puduck.net.git
+	fetch = +refs/heads/*:refs/remotes/api.puduck.net/*
