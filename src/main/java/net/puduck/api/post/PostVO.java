@@ -30,6 +30,9 @@ public class PostVO implements Serializable {
     @Column(columnDefinition = "TEXT", nullable = false)
     private String postContent;
 
+    @Column(length = 100, nullable = false)
+    private String postAuthor;
+
     private int postHit;
 
     @Column(columnDefinition = "DATATIME", nullable = false)
