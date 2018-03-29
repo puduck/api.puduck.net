@@ -15,7 +15,7 @@ public class PostController {
 
     private PostRepository postRepository;
 
-    @GetMapping(value = "/")
+    @GetMapping(value = "")
     public Page<PostVO> ListPostbyPaging(Pageable pageable) {
         return postRepository.findAll(pageable);
     }
